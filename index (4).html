@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Fitness Hub (RFH) | Luxury Gym & Fitness Center Rajauli, Nawada</title>
+  <meta name="description" content="Royal Fitness Hub (RFH) is Rajauli's premier luxury fitness club at Hotel Royal Orbit, NH-20. World-class strength equipment, personal training, diet plans, and cardio zones.">
+  <meta name="keywords" content="Royal Fitness Hub, RFH Gym, Gym in Rajauli, Nawada Gym, Luxury Gym Bihar, Personal Training Rajauli, Hotel Royal Orbit Gym">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://royalfitnesshub.in/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://royalfitnesshub.in/">
+  <meta property="og:title" content="Royal Fitness Hub | Luxury Fitness Center Rajauli">
+  <meta property="og:description" content="Train Hard. Stay Strong. Live Better. Join Rajauli's luxury gym at Hotel Royal Orbit.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Royal Fitness Hub (RFH) - Premium Gym">
+  <meta name="twitter:description" content="Experience Rajauli's elite gym with world-class facilities and expert guidance.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Local Business Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Royal Fitness Hub (RFH)",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200",
+    "telephone": "+917481809977",
+    "url": "https://royalfitnesshub.in/",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Hotel Royal Orbit, Near Bahadurpur Toll Plaza / NH-20 (Patna–Ranchi Road)",
+      "addressLocality": "Rajauli",
+      "addressRegion": "Bihar",
+      "postalCode": "805125",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 24.6548,
+      "longitude": 85.4984
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "05:00",
+        "closes": "10:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "16:00",
+        "closes": "21:00"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Syne / Oswald -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN for instant robust single-file rendering -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bgDark: '#050505',
+            surfaceDark: '#101010',
+            gold: '#FFD700',
+            goldHover: '#FFA500',
+            accentRed: '#FF4D4D',
+            secText: '#CFCFCF'
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['Syne', '"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    body {
+      background-color: #050505;
+      color: #FFFFFF;
+      overflow-x: hidden;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-card:hover {
+      border-color: rgba(255, 215, 0, 0.4);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.1);
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFFFFF 20%, #FFD700 80%, #FFA500 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-btn {
+      background: linear-gradient(135deg, #FFD700, #FFA500);
+      color: #050505;
+      font-weight: 700;
+      box-shadow: 0 4px 20px rgba(255, 215, 0, 0.25);
+      transition: all 0.25s ease;
+    }
+    .gold-btn:hover {
+      background: linear-gradient(135deg, #FFA500, #FF8C00);
+      box-shadow: 0 6px 25px rgba(255, 215, 0, 0.45);
+      transform: translateY(-2px);
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 8px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: #050505;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #222;
+      border-radius: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: #FFD700;
+    }
+  </style>
+</head>
+<body class="custom-scroll min-h-screen flex flex-col selection:bg-gold selection:text-black">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-gradient-to-r from-yellow-950/40 via-amber-900/30 to-yellow-950/40 border-b border-gold/20 py-2 px-4 text-center text-xs sm:text-sm text-gold/90 font-medium tracking-wide">
+    👑 Admissions Open at Hotel Royal Orbit, Rajauli | Call/WhatsApp: <a href="tel:+917481809977" class="font-bold underline hover:text-white transition-colors">+91 7481809977</a>
+  </div>
+
+  <!-- STICKY HEADER -->
+  <header id="main-header" class="sticky top-0 z-50 transition-all duration-300 bg-transparent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- BRAND LOGO -->
+        <a href="#home" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-gold to-amber-600 p-[1.5px] shadow-lg shadow-gold/20">
+            <div class="w-full h-full bg-black rounded-[10px] flex items-center justify-center font-display font-extrabold text-gold text-lg tracking-tighter">
+              RFH
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display font-extrabold text-lg sm:text-xl tracking-wider text-white group-hover:text-gold transition-colors">ROYAL FITNESS HUB</span>
+            <span class="text-[10px] uppercase tracking-[0.25em] text-gold/80 font-medium">Luxury Health & Gym</span>
+          </div>
+        </a>
+
+        <!-- DESKTOP NAVIGATION -->
+        <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-secText">
+          <a href="#home" class="hover:text-gold transition-colors">Home</a>
+          <a href="#about" class="hover:text-gold transition-colors">About</a>
+          <a href="#services" class="hover:text-gold transition-colors">Services</a>
+          <a href="#membership" class="hover:text-gold transition-colors">Membership</a>
+          <a href="#facilities" class="hover:text-gold transition-colors">Facilities</a>
+          <a href="#gallery" class="hover:text-gold transition-colors">Gallery</a>
+          <a href="#contact" class="hover:text-gold transition-colors">Contact</a>
+        </nav>
+
+        <!-- CTA & MOBILE TOGGLE -->
+        <div class="flex items-center gap-3">
+          <a href="#membership" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider gold-btn">
+            Join Now
+          </a>
+          <button id="mobile-menu-btn" aria-label="Toggle menu" class="md:hidden p-2 rounded-lg text-secText hover:text-white bg-white/5 border border-white/10">
+            <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- MOBILE MENU DRAWER -->
+    <div id="mobile-menu" class="hidden md:hidden bg-surfaceDark/95 backdrop-blur-xl border-b border-white/10 px-4 pt-3 pb-6 space-y-3">
+      <a href="#home" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">Home</a>
+      <a href="#about" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">About</a>
+      <a href="#services" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">Services</a>
+      <a href="#membership" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">Membership</a>
+      <a href="#facilities" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">Facilities</a>
+      <a href="#gallery" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">Gallery</a>
+      <a href="#contact" class="mobile-link block px-3 py-2 rounded-lg text-base font-medium hover:bg-white/5 hover:text-gold">Contact</a>
+      <div class="pt-2">
+        <a href="https://wa.me/917481809977?text=Hello%20Royal%20Fitness%20Hub,%20I%20want%20to%20join%20the%20gym!" target="_blank" class="w-full text-center block px-4 py-3 rounded-xl gold-btn text-xs uppercase font-bold tracking-wider">
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-16 lg:py-24">
+      <!-- Background image with gradient overlay -->
+      <div class="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop" 
+          alt="Luxury Gym Atmosphere" 
+          class="w-full h-full object-cover object-center opacity-30 transform scale-105 transition-transform duration-1000"
+          loading="eager"
+        >
+        <div class="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/75 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#050505] via-transparent to-[#050505]"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-gold/30 text-gold text-xs sm:text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-md">
+          <span class="w-2 h-2 rounded-full bg-gold animate-ping"></span>
+          Rajauli's No.1 Luxury Fitness Center
+        </div>
+
+        <!-- Main Heading -->
+        <h1 class="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white uppercase leading-[1.1] mb-6">
+          ROYAL FITNESS <span class="gold-gradient-text">HUB</span>
+        </h1>
+
+        <!-- Subheading -->
+        <p class="text-xl sm:text-2xl md:text-3xl font-light text-secText max-w-3xl mx-auto mb-8 tracking-wide">
+          Train Hard. <span class="text-white font-medium">Stay Strong.</span> <span class="text-gold font-semibold">Live Better.</span>
+        </p>
+
+        <p class="text-sm sm:text-base text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+          Experience international-grade equipment, elite personal trainers, certified nutrition plans, and a hygienic luxury ambience located at Hotel Royal Orbit, NH-20 Rajauli.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-16">
+          <a href="#membership" class="w-full sm:w-auto px-8 py-4 rounded-xl gold-btn uppercase tracking-wider text-sm font-extrabold flex items-center justify-center gap-2">
+            <span>Join Membership</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+          <a href="https://wa.me/917481809977?text=Hello%20RFH,%20I%20would%20like%20to%20know%20more%20about%20gym%20plans." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold text-sm tracking-wider uppercase backdrop-blur-md transition-all flex items-center justify-center gap-2">
+            <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.983.537 1.956.82 3.123.82 3.18 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.766-5.768-5.766zm6.811 5.766c-.002 3.754-3.06 6.81-6.811 6.81-1.22 0-2.366-.324-3.364-.888l-3.731.979 1-.3.649-2.369C5.9 14.887 5.4 13.5 5.4 11.938c0-3.753 3.06-6.81 6.811-6.81 3.753 0 6.812 3.057 6.812 6.81z"/></svg>
+            <span>WhatsApp Enquiry</span>
+          </a>
+        </div>
+
+        <!-- STATS / COUNTERS -->
+        <div class="grid grid-cols-3 gap-4 sm:gap-8 max-w-3xl mx-auto pt-8 border-t border-white/10">
+          <div class="p-4 rounded-2xl bg-white/[0.02]">
+            <div class="text-2xl sm:text-4xl font-extrabold text-gold font-display counter" data-target="500">0</div>
+            <div class="text-xs sm:text-sm text-gray-400 font-medium mt-1">Active Members +</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white/[0.02]">
+            <div class="text-2xl sm:text-4xl font-extrabold text-gold font-display counter" data-target="350">0</div>
+            <div class="text-xs sm:text-sm text-gray-400 font-medium mt-1">Transformations +</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-white/[0.02]">
+            <div class="text-2xl sm:text-4xl font-extrabold text-gold font-display counter" data-target="5">0</div>
+            <div class="text-xs sm:text-sm text-gray-400 font-medium mt-1">Years Experience +</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-surfaceDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          
+          <div>
+            <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+              <span class="w-8 h-[2px] bg-gold"></span> About Royal Fitness Hub
+            </div>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
+              Rajauli's Premium Fitness Destination
+            </h2>
+            <p class="text-secText text-base sm:text-lg leading-relaxed mb-6">
+              <strong class="text-white">Royal Fitness Hub (RFH)</strong> is Rajauli's premium fitness destination crafted for those who demand excellence in their health journey. Located conveniently inside Hotel Royal Orbit on NH-20 (Patna–Ranchi Road), we bring world-class gym amenities to Nawada.
+            </p>
+            <p class="text-gray-400 text-sm sm:text-base leading-relaxed mb-8">
+              Whether your goal is rapid Weight Loss, lean Muscle Gain, Cardio endurance, Heavy Strength Training, or dedicated 1-on-1 Personal Training, our certified mentors and modern machines provide the perfect environment for guaranteed results.
+            </p>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div class="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/10">
+                <div class="w-8 h-8 rounded-lg bg-gold/20 text-gold flex items-center justify-center font-bold">✓</div>
+                <span class="text-sm font-semibold text-white">Imported Bio-mechanic Equipment</span>
+              </div>
+              <div class="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/10">
+                <div class="w-8 h-8 rounded-lg bg-gold/20 text-gold flex items-center justify-center font-bold">✓</div>
+                <span class="text-sm font-semibold text-white">Certified Personal Mentors</span>
+              </div>
+              <div class="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/10">
+                <div class="w-8 h-8 rounded-lg bg-gold/20 text-gold flex items-center justify-center font-bold">✓</div>
+                <span class="text-sm font-semibold text-white">100% Sanitized & AC Arena</span>
+              </div>
+              <div class="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/10">
+                <div class="w-8 h-8 rounded-lg bg-gold/20 text-gold flex items-center justify-center font-bold">✓</div>
+                <span class="text-sm font-semibold text-white">Custom Nutrition Diet Plans</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="relative rounded-3xl overflow-hidden border border-white/15 shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1000&auto=format&fit=crop" 
+                alt="Gym Training Interior" 
+                class="w-full h-full object-cover aspect-[4/3] hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              >
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl glass-card border border-gold/30">
+                <p class="text-gold text-xs font-bold uppercase tracking-wider">Prime Location</p>
+                <p class="text-white font-semibold text-sm">Hotel Royal Orbit, Rajauli, Nawada (Bihar) – 805125</p>
+                <p class="text-xs text-gray-300">Near Bahadurpur Toll Plaza / NH-20</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 bg-bgDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+            World-Class Training Programs
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
+            Transformative Services
+          </h2>
+          <p class="text-gray-400 mt-4 text-sm sm:text-base">
+            Engineered workout routines and dietary protocols tailored for peak physical performance.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          
+          <!-- Service 1: Weight Loss -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold/10 text-gold border border-gold/30 flex items-center justify-center text-xl font-bold mb-5">
+                🔥
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-2">Weight Loss</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                High-calorie burn protocols combining HIIT, metabolic conditioning, and structured deficit plans to shred fat sustainably.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-semibold">
+              <span>Fat Loss Protocol</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Service 2: Weight Gain -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold/10 text-gold border border-gold/30 flex items-center justify-center text-xl font-bold mb-5">
+                💪
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-2">Weight Gain & Bulking</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Lean muscle hyper-growth guidance with surplus calorie charts and progressive compound lifting techniques.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-semibold">
+              <span>Hypertrophy Focus</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Service 3: Personal Training -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between border-gold/30">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold/20 text-gold border border-gold flex items-center justify-center text-xl font-bold mb-5">
+                ⭐
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-2">Personal Training</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Dedicated 1-on-1 coaching with customized posture correction, constant motivation, and bio-feedback tracking.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-semibold">
+              <span>1-on-1 Mentorship</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Service 4: Strength Training -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold/10 text-gold border border-gold/30 flex items-center justify-center text-xl font-bold mb-5">
+                🏋️‍♂️
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-2">Strength Training</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Heavy Olympic lifting, power racks, barbells, and dumbbell stations built for raw explosive power and density.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-semibold">
+              <span>Power & Strength</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Service 5: Cardio Arena -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold/10 text-gold border border-gold/30 flex items-center justify-center text-xl font-bold mb-5">
+                🏃
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-2">Cardio Zone</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Commercial motor treadmills, cross trainers, and spin bikes to optimize cardiovascular endurance and stamina.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-semibold">
+              <span>Stamina & Heart Health</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Service 6: Functional Training -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold/10 text-gold border border-gold/30 flex items-center justify-center text-xl font-bold mb-5">
+                ⚡
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-2">Functional Training</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Agility ladders, battle ropes, kettlebells, and plyometrics to improve core balance, flexibility, and athletic mobility.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-semibold">
+              <span>Mobility & Agility</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Service 7: Diet & Nutrition Plan -->
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between sm:col-span-2 lg:col-span-2 border-gold/40 bg-gradient-to-br from-white/10 to-amber-950/20">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gold text-black flex items-center justify-center text-xl font-bold mb-5">
+                🥗
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-2">Custom Diet & Nutrition Plans</h3>
+              <p class="text-gray-300 text-sm leading-relaxed max-w-xl">
+                Science-backed macronutrient calculations designed for vegetarian and non-vegetarian lifestyles. Customized specifically for Weight Loss or Muscle Gain starting at only <strong>₹500/month</strong>.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gold font-bold">
+              <span>Get Your Personalized Diet Chart</span>
+              <span>₹500 / Month</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP & PRICING SECTION -->
+    <section id="membership" class="py-24 bg-surfaceDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+            Transparent Luxury Pricing
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
+            Membership Packages
+          </h2>
+          <p class="text-gray-400 mt-4 text-sm sm:text-base">
+            One-time Admission Fee: <span class="text-gold font-bold">₹100 Only</span>. Choose between independent gym access or comprehensive personal training packages.
+          </p>
+
+          <!-- Toggle buttons for category -->
+          <div class="inline-flex p-1.5 rounded-full bg-white/5 border border-white/10 mt-8">
+            <button id="btn-without-training" class="px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all bg-gold text-black">
+              WITHOUT TRAINING
+            </button>
+            <button id="btn-with-training" class="px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold text-secText hover:text-white transition-all">
+              WITH TRAINING (Personal Coach)
+            </button>
+          </div>
+        </div>
+
+        <!-- PRICING GRIDS -->
+
+        <!-- 1. WITHOUT TRAINING GRID -->
+        <div id="grid-without-training" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Monthly -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gray-400 font-bold">Standard</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">Monthly</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-white">₹800</span>
+                <span class="text-xs text-gray-400"> / month</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2">✓ Full Gym Floor Access</li>
+                <li class="flex items-center gap-2">✓ Cardio & Strength Zones</li>
+                <li class="flex items-center gap-2">✓ Locker & Changing Area</li>
+                <li class="flex items-center gap-2">✓ Free Parking & WiFi</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%20Monthly%20plan%20(₹800)" target="_blank" class="mt-8 block text-center py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+              Choose Monthly
+            </a>
+          </div>
+
+          <!-- 3 Months -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">Quarterly</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">3 Months</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-white">₹1,999</span>
+                <span class="text-xs text-gray-400"> (₹666/mo)</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2">✓ Everything in Monthly</li>
+                <li class="flex items-center gap-2">✓ Free Fitness Assessment</li>
+                <li class="flex items-center gap-2">✓ Routine Workout Chart</li>
+                <li class="flex items-center gap-2">✓ Save ₹400+</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%203%20Months%20plan%20(₹1999)" target="_blank" class="mt-8 block text-center py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+              Choose 3 Months
+            </a>
+          </div>
+
+          <!-- 6 Months (HIGHLIGHTED VALUE) -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between relative border-gold shadow-xl shadow-gold/10 bg-gradient-to-b from-white/10 to-surfaceDark">
+            <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gold text-black text-[10px] font-extrabold uppercase px-4 py-1 rounded-full tracking-wider shadow-md">
+              Most Popular
+            </div>
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">Half Yearly</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">6 Months</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-gold">₹3,999</span>
+                <span class="text-xs text-gray-400"> (₹666/mo)</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2 font-medium text-white">✓ Premium Gym Membership</li>
+                <li class="flex items-center gap-2">✓ Full Cardio & Free Weights</li>
+                <li class="flex items-center gap-2">✓ Free Diet Guidance</li>
+                <li class="flex items-center gap-2">✓ Lockers & Shower Access</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%206%20Months%20plan%20(₹3999)" target="_blank" class="mt-8 block text-center py-3 rounded-xl gold-btn text-xs uppercase font-extrabold tracking-wider">
+              Get 6 Months
+            </a>
+          </div>
+
+          <!-- 1 Year -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border-amber-400/40">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">Best Value</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">1 Year Plan</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-white">₹7,555</span>
+                <span class="text-xs text-gray-400"> / full year</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2">✓ 365 Days Unrestricted Access</li>
+                <li class="flex items-center gap-2">✓ Complete Body Tracking</li>
+                <li class="flex items-center gap-2">✓ Maximum Savings (Save ₹2,000+)</li>
+                <li class="flex items-center gap-2">✓ Priority Support & Lockers</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%201%20Year%20plan%20(₹7555)" target="_blank" class="mt-8 block text-center py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+              Choose 1 Year
+            </a>
+          </div>
+
+        </div>
+
+        <!-- 2. WITH TRAINING GRID (Initially Hidden or Toggled) -->
+        <div id="grid-with-training" class="hidden grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Monthly with PT -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">PT Starter</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">Monthly</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-white">₹1,000</span>
+                <span class="text-xs text-gray-400"> / month</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2 text-white">✓ Dedicated Trainer Assistance</li>
+                <li class="flex items-center gap-2">✓ Form & Posture Correction</li>
+                <li class="flex items-center gap-2">✓ Weight Loss / Gain Workouts</li>
+                <li class="flex items-center gap-2">✓ Full Gym Floor Access</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%20Monthly%20With%20Training%20(₹1000)" target="_blank" class="mt-8 block text-center py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+              Join Monthly PT
+            </a>
+          </div>
+
+          <!-- 3 Months with PT -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">PT Transformation</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">3 Months</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-white">₹2,555</span>
+                <span class="text-xs text-gray-400"> (₹851/mo)</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2 text-white">✓ Personalized Coaching Sessions</li>
+                <li class="flex items-center gap-2">✓ Progressive Overload Tracking</li>
+                <li class="flex items-center gap-2">✓ Free Routine Guidance</li>
+                <li class="flex items-center gap-2">✓ High Success Transformation</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%203%20Months%20With%20Training%20(₹2555)" target="_blank" class="mt-8 block text-center py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+              Join 3 Months PT
+            </a>
+          </div>
+
+          <!-- 6 Months with PT (HIGHLIGHTED BEST VALUE) -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between relative border-gold shadow-xl shadow-gold/15 bg-gradient-to-b from-white/10 to-surfaceDark">
+            <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gold text-black text-[10px] font-extrabold uppercase px-4 py-1 rounded-full tracking-wider shadow-md">
+              Best Transformation
+            </div>
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">PT Pro</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">6 Months</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-gold">₹4,999</span>
+                <span class="text-xs text-gray-400"> (₹833/mo)</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2 font-medium text-white">✓ Comprehensive Personal Coaching</li>
+                <li class="flex items-center gap-2">✓ Customized Body Recomposition</li>
+                <li class="flex items-center gap-2">✓ Continuous Progress Milestones</li>
+                <li class="flex items-center gap-2">✓ Best Value for Serious Results</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%206%20Months%20With%20Training%20(₹4999)" target="_blank" class="mt-8 block text-center py-3 rounded-xl gold-btn text-xs uppercase font-extrabold tracking-wider">
+              Get 6 Months PT
+            </a>
+          </div>
+
+          <!-- 1 Year with PT -->
+          <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border-amber-400/40">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-gold font-bold">Elite Athlete</span>
+              <h3 class="font-display text-2xl font-bold text-white mt-1">1 Year Plan</h3>
+              <div class="my-6">
+                <span class="text-4xl font-extrabold text-white">₹8,555</span>
+                <span class="text-xs text-gray-400"> / full year</span>
+              </div>
+              <ul class="space-y-3 text-xs text-secText">
+                <li class="flex items-center gap-2 text-white">✓ 1 Full Year Trainer Guidance</li>
+                <li class="flex items-center gap-2">✓ Complete Lifestyle Transformation</li>
+                <li class="flex items-center gap-2">✓ Unmatched Long-term Value</li>
+                <li class="flex items-center gap-2">✓ VIP Priority in Facility</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%201%20Year%20With%20Training%20(₹8555)" target="_blank" class="mt-8 block text-center py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+              Join 1 Year PT
+            </a>
+          </div>
+
+        </div>
+
+        <!-- DIET PLAN BANNER CARD -->
+        <div class="mt-12 p-8 rounded-3xl bg-gradient-to-r from-amber-950/40 via-surfaceDark to-black border border-gold/30 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="flex items-center gap-5">
+            <div class="w-16 h-16 rounded-2xl bg-gold/20 text-gold flex items-center justify-center text-3xl shrink-0">
+              🥑
+            </div>
+            <div>
+              <h4 class="font-display text-xl sm:text-2xl font-bold text-white">Expert Diet Plan (Weight Loss & Muscle Gain)</h4>
+              <p class="text-sm text-gray-400 mt-1">Get precise daily calorie, protein, carbs, and meal timing charts prepared by nutritionists.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 shrink-0">
+            <div class="text-right">
+              <span class="text-2xl font-extrabold text-gold">₹500</span>
+              <span class="text-xs text-gray-400">/month</span>
+            </div>
+            <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20get%20the%20₹500%20Monthly%20Diet%20Plan" target="_blank" class="px-6 py-3 rounded-xl gold-btn text-xs font-bold uppercase tracking-wider">
+              Order Diet Plan
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TIMINGS & FACILITIES & RULES -->
+    <section id="facilities" class="py-24 bg-bgDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid lg:grid-cols-3 gap-8">
+          
+          <!-- TIMINGS CARD -->
+          <div class="glass-card rounded-3xl p-8 border-gold/30 flex flex-col justify-between">
+            <div>
+              <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+                ⏰ Operating Schedule
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-6">Gym Timings</h3>
+
+              <!-- Morning -->
+              <div class="mb-6 p-4 rounded-2xl bg-white/5 border border-white/10">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-gold font-bold text-sm">🌅 Morning Session</span>
+                  <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-semibold">Active</span>
+                </div>
+                <div class="text-xl font-extrabold text-white">05:00 AM – 10:00 AM</div>
+                <p class="text-xs text-gray-400 mt-1">Best for early morning strength & empty-stomach cardio.</p>
+              </div>
+
+              <!-- Evening -->
+              <div class="p-4 rounded-2xl bg-white/5 border border-white/10">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-gold font-bold text-sm">🌆 Evening Session</span>
+                  <span class="text-xs px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-semibold">Peak Power</span>
+                </div>
+                <div class="text-xl font-extrabold text-white">04:00 PM – 09:00 PM</div>
+                <p class="text-xs text-gray-400 mt-1">Prime time for muscle hypertrophy & group training energy.</p>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-white/10 text-xs text-gray-400 flex items-center justify-between">
+              <span>Open Monday to Saturday</span>
+              <span class="text-gold">Sunday: Rest Day</span>
+            </div>
+          </div>
+
+          <!-- FACILITIES CARD -->
+          <div class="glass-card rounded-3xl p-8 flex flex-col justify-between">
+            <div>
+              <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+                ✨ World Class
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-6">Gym Facilities</h3>
+
+              <div class="grid grid-cols-2 gap-3 text-xs sm:text-sm">
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5">
+                  <span class="text-gold text-base">🏋️</span>
+                  <span class="font-medium text-white">Modern Equipment</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5">
+                  <span class="text-gold text-base">🏃</span>
+                  <span class="font-medium text-white">Cardio Area</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5">
+                  <span class="text-gold text-base">💪</span>
+                  <span class="font-medium text-white">Strength Zone</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5">
+                  <span class="text-gold text-base">🔐</span>
+                  <span class="font-medium text-white">Secure Lockers</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5">
+                  <span class="text-gold text-base">🚗</span>
+                  <span class="font-medium text-white">Spacious Parking</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2.5">
+                  <span class="text-gold text-base">🚿</span>
+                  <span class="font-medium text-white">Changing Area</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 p-3 rounded-xl bg-emerald-950/20 border border-emerald-500/30 flex items-center gap-3">
+              <span class="text-emerald-400 text-lg">🌿</span>
+              <span class="text-xs text-emerald-200 font-medium">100% Clean & Sanitized Air-Conditioned Arena</span>
+            </div>
+          </div>
+
+          <!-- RULES CARD -->
+          <div class="glass-card rounded-3xl p-8 flex flex-col justify-between">
+            <div>
+              <div class="inline-flex items-center gap-2 text-accentRed text-xs font-bold uppercase tracking-widest mb-3">
+                📋 Gym Etiquette
+              </div>
+              <h3 class="font-display text-2xl font-bold text-white mb-6">Facility Rules</h3>
+
+              <ul class="space-y-3.5 text-xs sm:text-sm text-secText">
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-full bg-accentRed/20 text-accentRed flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">!</span>
+                  <span><strong>No Outside Footwear:</strong> Clean indoor workout shoes are strictly required.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-full bg-accentRed/20 text-accentRed flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">!</span>
+                  <span><strong>Return Dumbbells:</strong> Always rerack weights and dumbbells after your set.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-full bg-accentRed/20 text-accentRed flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">!</span>
+                  <span><strong>Max Treadmill Time:</strong> 15 Minutes maximum per user during rush hours.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-full bg-accentRed/20 text-accentRed flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">!</span>
+                  <span><strong>Fees Policy:</strong> Membership fees are Non-Refundable and Non-Transferable.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-white/10 text-xs text-gray-400 text-center">
+              Maintaining discipline keeps RFH world-class for everyone.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION (MASONRY) -->
+    <section id="gallery" class="py-24 bg-surfaceDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+            Visual Experience
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
+            Gym Gallery
+          </h2>
+          <p class="text-gray-400 mt-4 text-sm sm:text-base">
+            Take a look inside Rajauli's top-tier fitness and strength training environment.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <div class="group relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/3]">
+            <img 
+              src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop" 
+              alt="Heavy Dumbbells & Strength Arena" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <span class="text-white font-bold text-sm tracking-wide">Heavy Dumbbell & Free Weights Zone</span>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/3]">
+            <img 
+              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop" 
+              alt="Power Racks and Barbell Section" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <span class="text-white font-bold text-sm tracking-wide">Power Racks & Olympic Barbells</span>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/3]">
+            <img 
+              src="https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=800&auto=format&fit=crop" 
+              alt="Cardio Treadmills and Cross Trainers" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <span class="text-white font-bold text-sm tracking-wide">Commercial Cardio & Treadmill Suite</span>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/3]">
+            <img 
+              src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800&auto=format&fit=crop" 
+              alt="Personal Training and Coaching" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <span class="text-white font-bold text-sm tracking-wide">1-on-1 Personal Mentorship Area</span>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/3]">
+            <img 
+              src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=800&auto=format&fit=crop" 
+              alt="Warmup and Functional Floor" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <span class="text-white font-bold text-sm tracking-wide">Functional & Calisthenics Turf</span>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-3xl border border-white/10 aspect-[4/3]">
+            <img 
+              src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800&auto=format&fit=crop" 
+              alt="Luxury Gym Lighting and Ambiance" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            >
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <span class="text-white font-bold text-sm tracking-wide">Hotel Royal Orbit Luxury Ambience</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="py-24 bg-bgDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+            Real Transformations
+          </div>
+          <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
+            What Our Members Say
+          </h2>
+          <p class="text-gray-400 mt-4 text-sm sm:text-base">
+            Verified 5-Star feedback from athletes, beginners, and fitness enthusiasts in Rajauli & Nawada.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          
+          <div class="glass-card rounded-3xl p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex text-gold text-sm gap-1 mb-4">★★★★★</div>
+              <p class="text-secText text-sm leading-relaxed mb-6">
+                "RFH is easily the best gym in Rajauli! The equipment quality is top notch and the personal training helped me drop 12 kg in 4 months without feeling weak. The ambiance at Hotel Royal Orbit is truly luxury."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+              <div class="w-10 h-10 rounded-full bg-gold/20 text-gold flex items-center justify-center font-bold">AK</div>
+              <div>
+                <h5 class="text-white font-bold text-sm">Amit Kumar</h5>
+                <span class="text-xs text-gray-400">Weight Loss Member (6 Months)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-3xl p-8 flex flex-col justify-between border-gold/30">
+            <div>
+              <div class="flex text-gold text-sm gap-1 mb-4">★★★★★</div>
+              <p class="text-secText text-sm leading-relaxed mb-6">
+                "Finding a hygienic, fully air-conditioned gym with heavy Olympic bars on NH-20 was a blessing. Trainers ensure correct posture on every set. Highly recommended 1-Year plan!"
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+              <div class="w-10 h-10 rounded-full bg-gold/20 text-gold flex items-center justify-center font-bold">RS</div>
+              <div>
+                <h5 class="text-white font-bold text-sm">Rahul Singh</h5>
+                <span class="text-xs text-gray-400">Muscle Gain Athlete</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-3xl p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex text-gold text-sm gap-1 mb-4">★★★★★</div>
+              <p class="text-secText text-sm leading-relaxed mb-6">
+                "The ₹500 diet plan along with regular cardio sessions gave me unbelievable stamina. Clean changing rooms and safe parking are huge plus points."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+              <div class="w-10 h-10 rounded-full bg-gold/20 text-gold flex items-center justify-center font-bold">VP</div>
+              <div>
+                <h5 class="text-white font-bold text-sm">Vikash Patel</h5>
+                <span class="text-xs text-gray-400">Cardio & Fitness Member</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT & LOCATION SECTION -->
+    <section id="contact" class="py-24 bg-surfaceDark relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          
+          <div>
+            <div class="inline-flex items-center gap-2 text-gold text-xs font-bold uppercase tracking-widest mb-3">
+              Get In Touch
+            </div>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6">
+              Start Your Royal Transformation Today
+            </h2>
+            <p class="text-secText text-base mb-8 leading-relaxed">
+              Have questions about memberships, personal training, or facilities? Contact our help desk directly or visit us at Hotel Royal Orbit.
+            </p>
+
+            <div class="space-y-6">
+              
+              <!-- Address -->
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+                <div class="w-12 h-12 rounded-xl bg-gold/20 text-gold flex items-center justify-center text-xl shrink-0">
+                  📍
+                </div>
+                <div>
+                  <h4 class="text-white font-bold text-sm">Location Address</h4>
+                  <p class="text-secText text-sm mt-1">
+                    Hotel Royal Orbit, Rajauli, Nawada (Bihar) – 805125<br>
+                    <span class="text-gray-400 text-xs">Near Bahadurpur Toll Plaza / NH-20 (Patna–Ranchi Road)</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+                <div class="w-12 h-12 rounded-xl bg-gold/20 text-gold flex items-center justify-center text-xl shrink-0">
+                  📞
+                </div>
+                <div>
+                  <h4 class="text-white font-bold text-sm">Phone Call & Direct Support</h4>
+                  <a href="tel:+917481809977" class="text-gold font-extrabold text-lg hover:underline mt-1 block">
+                    +91 7481809977
+                  </a>
+                </div>
+              </div>
+
+              <!-- WhatsApp -->
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+                <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl shrink-0">
+                  💬
+                </div>
+                <div>
+                  <h4 class="text-white font-bold text-sm">WhatsApp Instant Help</h4>
+                  <a href="https://wa.me/917481809977?text=Hello%20Royal%20Fitness%20Hub,%20I%20want%20to%20inquire%20about%20gym%20membership." target="_blank" class="text-emerald-400 font-bold text-sm hover:underline mt-1 block">
+                    Chat with Gym Manager on WhatsApp →
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap gap-4 mt-8">
+              <a href="tel:+917481809977" class="px-6 py-3 rounded-xl gold-btn text-xs font-extrabold uppercase tracking-wider">
+                Call Now (+91 7481809977)
+              </a>
+              <a href="https://maps.google.com/?q=Hotel+Royal+Orbit+Rajauli+Nawada" target="_blank" class="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-xs uppercase tracking-wider transition-colors">
+                Get Directions
+              </a>
+            </div>
+
+          </div>
+
+          <!-- GOOGLE MAPS EMBED -->
+          <div class="rounded-3xl overflow-hidden border border-white/15 shadow-2xl h-[420px] relative bg-neutral-900">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.5!2d85.4984!3d24.6548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM5JzE3LjMiTiA4NcKwMjknNTQuMiJF!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0; filter: invert(90%) hue-rotate(180deg);" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Royal Fitness Hub Location Map"
+            ></iframe>
+            <div class="absolute bottom-4 left-4 right-4 p-3 rounded-xl bg-black/80 backdrop-blur-md text-xs text-white border border-white/10 flex items-center justify-between">
+              <span>📍 Rajauli, Nawada, Bihar – 805125</span>
+              <a href="https://maps.google.com/?q=Hotel+Royal+Orbit+Rajauli+Nawada" target="_blank" class="text-gold font-bold underline">Open in Maps</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-black border-t border-white/10 py-16 text-secText">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Col 1: Brand -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-gold to-amber-600 p-[1px]">
+              <div class="w-full h-full bg-black rounded-[7px] flex items-center justify-center font-display font-extrabold text-gold text-sm">
+                RFH
+              </div>
+            </div>
+            <span class="font-display font-extrabold text-lg text-white">ROYAL FITNESS HUB</span>
+          </div>
+          <p class="text-xs text-gray-400 leading-relaxed mb-6">
+            Rajauli's international standard fitness club located at Hotel Royal Orbit. State-of-the-art weights, cardio, personal training, and dietitian guidance.
+          </p>
+          <div class="text-xs text-gold font-semibold">
+            Admission: ₹100 | Monthly: ₹800+
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Quick Links</h5>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#home" class="hover:text-gold transition-colors">Home</a></li>
+            <li><a href="#about" class="hover:text-gold transition-colors">About RFH</a></li>
+            <li><a href="#services" class="hover:text-gold transition-colors">Gym Services</a></li>
+            <li><a href="#membership" class="hover:text-gold transition-colors">Pricing & Plans</a></li>
+            <li><a href="#facilities" class="hover:text-gold transition-colors">Facilities & Schedule</a></li>
+            <li><a href="#gallery" class="hover:text-gold transition-colors">Photo Gallery</a></li>
+            <li><a href="#contact" class="hover:text-gold transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Timings & Location -->
+        <div>
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Hours & Location</h5>
+          <div class="text-xs space-y-2.5">
+            <div>
+              <strong class="text-white block">Morning:</strong>
+              <span class="text-gray-400">05:00 AM – 10:00 AM</span>
+            </div>
+            <div>
+              <strong class="text-white block">Evening:</strong>
+              <span class="text-gray-400">04:00 PM – 09:00 PM</span>
+            </div>
+            <div class="pt-2 text-gray-400">
+              Hotel Royal Orbit, Near Bahadurpur Toll Plaza / NH-20, Rajauli, Nawada (Bihar) 805125
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 4: Social & Contact -->
+        <div>
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Connect With Us</h5>
+          <p class="text-xs text-gray-400 mb-4">Follow our fitness community and client transformations.</p>
+          <div class="flex items-center gap-3 mb-6">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-gold/20 border border-white/10 hover:border-gold text-white hover:text-gold flex items-center justify-center text-xs font-bold transition-all">
+              IG
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-gold/20 border border-white/10 hover:border-gold text-white hover:text-gold flex items-center justify-center text-xs font-bold transition-all">
+              FB
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-gold/20 border border-white/10 hover:border-gold text-white hover:text-gold flex items-center justify-center text-xs font-bold transition-all">
+              YT
+            </a>
+            <a href="https://wa.me/917481809977" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 flex items-center justify-center text-xs font-bold transition-all">
+              WA
+            </a>
+          </div>
+          <div class="text-xs text-secText">
+            Direct Helpline: <a href="tel:+917481809977" class="text-gold font-bold underline">+91 7481809977</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+        <div>
+          Copyright &copy; 2026 <strong>Royal Fitness Hub (RFH)</strong>. All rights reserved.
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="#rules" class="hover:text-gold transition-colors">Terms & Conditions</a>
+          <a href="#about" class="hover:text-gold transition-colors">Privacy Policy</a>
+          <a href="#contact" class="hover:text-gold transition-colors">Location Map</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FLOATING CTA BUTTONS (MOBILE/DESKTOP) -->
+  <div class="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
+    <!-- Floating WhatsApp -->
+    <a 
+      href="https://wa.me/917481809977?text=Hello%20Royal%20Fitness%20Hub,%20I%20am%20interested%20in%20joining!" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      aria-label="WhatsApp Chat"
+      class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-xl shadow-emerald-500/30 flex items-center justify-center transform hover:scale-110 transition-transform duration-200"
+    >
+      <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+    </a>
+
+    <!-- Back to top button -->
+    <button 
+      id="back-to-top" 
+      aria-label="Back to Top" 
+      class="w-11 h-11 rounded-full bg-white/10 hover:bg-gold hover:text-black text-white border border-white/20 shadow-lg flex items-center justify-center transition-all opacity-0 pointer-events-none"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- STICKY MOBILE CALL BAR -->
+  <div class="sm:hidden fixed bottom-0 left-0 right-0 z-30 bg-surfaceDark/95 backdrop-blur-lg border-t border-white/10 p-3 flex gap-3">
+    <a href="tel:+917481809977" class="flex-1 py-2.5 rounded-xl bg-white/10 text-white border border-white/20 text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2">
+      <span>📞 Call Now</span>
+    </a>
+    <a href="https://wa.me/917481809977?text=Hi%20RFH,%20I%20want%20to%20join%20the%20gym!" target="_blank" class="flex-1 py-2.5 rounded-xl gold-btn text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2">
+      <span>👑 Join Now</span>
+    </a>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // 1. Header scroll effect
+    const header = document.getElementById('main-header');
+    const backToTopBtn = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('bg-black/85', 'backdrop-blur-xl', 'border-b', 'border-white/10', 'shadow-2xl');
+        header.classList.remove('bg-transparent');
+      } else {
+        header.classList.remove('bg-black/85', 'backdrop-blur-xl', 'border-b', 'border-white/10', 'shadow-2xl');
+        header.classList.add('bg-transparent');
+      }
+
+      if (window.scrollY > 400) {
+        backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+        backToTopBtn.classList.add('opacity-100');
+      } else {
+        backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+        backToTopBtn.classList.remove('opacity-100');
+      }
+    });
+
+    // 2. Back to top action
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // 3. Mobile menu toggling
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isExpanded = !mobileMenu.classList.contains('hidden');
+      if (isExpanded) {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      } else {
+        mobileMenu.classList.remove('hidden');
+        menuIcon.classList.add('hidden');
+        closeIcon.classList.remove('hidden');
+      }
+    });
+
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      });
+    });
+
+    // 4. Membership pricing tab toggle
+    const btnWithout = document.getElementById('btn-without-training');
+    const btnWith = document.getElementById('btn-with-training');
+    const gridWithout = document.getElementById('grid-without-training');
+    const gridWith = document.getElementById('grid-with-training');
+
+    btnWithout.addEventListener('click', () => {
+      btnWithout.classList.add('bg-gold', 'text-black');
+      btnWithout.classList.remove('text-secText');
+      btnWith.classList.remove('bg-gold', 'text-black');
+      btnWith.classList.add('text-secText');
+
+      gridWithout.classList.remove('hidden');
+      gridWith.classList.add('hidden');
+    });
+
+    btnWith.addEventListener('click', () => {
+      btnWith.classList.add('bg-gold', 'text-black');
+      btnWith.classList.remove('text-secText');
+      btnWithout.classList.remove('bg-gold', 'text-black');
+      btnWithout.classList.add('text-secText');
+
+      gridWith.classList.remove('hidden');
+      gridWithout.classList.add('hidden');
+    });
+
+    // 5. Animated Number Counters
+    const counters = document.querySelectorAll('.counter');
+    let hasCounted = false;
+
+    const animateCounters = () => {
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const speed = target / 50; // speed factor
+        
+        const updateCount = () => {
+          count += speed;
+          if (count < target) {
+            counter.innerText = Math.ceil(count);
+            requestAnimationFrame(updateCount);
+          } else {
+            counter.innerText = target;
+          }
+        };
+        updateCount();
+      });
+    };
+
+    const counterObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !hasCounted) {
+          hasCounted = true;
+          animateCounters();
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.2 });
+
+    const heroSection = document.getElementById('home');
+    if (heroSection) {
+      counterObserver.observe(heroSection);
+    }
+  </script>
+</body>
+</html>
